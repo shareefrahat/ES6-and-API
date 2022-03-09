@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 20px;
+        }
+
+        ::marker {
+            color: mediumseagreen;
+            font-size: 30px;
+        }
+
+        .style {
+            background-color: antiquewhite;
+            padding: 12px;
+            margin: 12px;
+            border: 2px solid mediumseagreen;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        button {
+            font-size: large;
+            background: mediumseagreen;
+            color: white;
+            font-weight: 700;
+            border: 1px solid mediumseagreen;
+            border-radius: 6px;
+            padding: 12px;
+            margin: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <ul id="list">
+            <h1>User List</h1>
+
+        </ul>
+
+        <button onclick="userData()">User Data</button>
+
+        <button onclick="userNames()">User Names</button>
+
+        <button id="user-email-btn">User Emails</button>
+    </div>
+
+
+
+
+    <script src="api.js"></script>
+</body>
+
+</html>
